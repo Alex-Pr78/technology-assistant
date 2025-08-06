@@ -11,7 +11,42 @@
   <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
-  <h1>Hello</h1>
+  <!-- Header -->
+    <div class="container">
+      <header class="header">
+        <a href="#" class="header__logo logo">LOGO</a>
+
+        <nav class="header__menu">
+          <ul class="header__menu-list">
+            <li><a href="#" class="header__menu-link">Home</a></li>
+            <li><a href="#" class="header__menu-link">About Us</a></li>
+            <li><a href="#" class="header__menu-link">Services</a></li>
+            <li><a href="#" class="header__menu-link">Our Teams</a></li>
+            <button class="btn-light">
+              <span class="material-symbols-outlined"> brightness_2 </span>
+            </button>
+          </ul>
+        </nav>
+
+        <div class="header__mobile-overlay" id="mobile-nav-overlay"></div>
+        <ul class="header__mobile-list">
+          <li><a href="#" class="header__mobile-link">Home</a></li>
+          <li><a href="#" class="header__mobile-link">About Us</a></li>
+          <li><a href="#" class="header__mobile-link">Services</a></li>
+          <li><a href="#" class="header__mobile-link">Our Teams</a></li>
+          <li><a href="#" class="header__mobile-link">Contact Us</a></li>
+          <label class="header__mobile-theme">
+            <input type="checkbox" />
+            <text class="check-text">Выкл</text>
+            <text class="check-text">Вкл</text>
+            <span class="angle"></span>
+            <div class="light" active></div>
+          </label>
+          
+        </ul>
+        <a href="#" class="burger"></a>
+      </header>
+      <!-- / Header -->
 
   <script src="./js/app.js"></script>
 </body>
