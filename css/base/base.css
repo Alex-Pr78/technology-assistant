@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:regular,500,600,700');
+/* Reset */
+:root {
+  --color-bg: #fff;
+  --color-text: #000; 
+  --accent: #cbcbcb ;
+}
+.darkstyle {
+  --color-bg: #222;
+  --color-text: #fff;
+  --accent: #474747;
+}
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+a, a:link, a:visited {
+  text-decoration: none;
+}
+aside,nav,footer,header,section,main {
+  display: block;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  font-size: inherit;
+  font-weight: inherit;
+}
+ul, ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+img, svg {
+  max-width: 100%;
+}
+body {
+  background: var(--color-bg);
+  color: var(--color-text);
+  max-width: 1440px;
+  margin: 0 auto;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.1rem;
+  border: 1px solid red;
+}
+.no-scroll {
+  overflow-y: hidden;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  border: 1px solid red;
+}
+.section{
+  margin: 30px auto;
+  padding-left: 24px;
+  padding-right: 24px;
+  background: var(--color-bg);
+  background-image: linear-gradient(to right, var(--accent) 1px, transparent 1px),
+  linear-gradient(to bottom, var(--accent) 1px, transparent 1px);
+  background-size: 1.54rem 1.54rem;
+  line-height: 1.4;
+  font-family: 'Montserrat';
+}
+.section-title {
+  padding: 0 20px;
+  font-size: 3rem;
+  text-align: center;
+  font-weight: 600;
+}
