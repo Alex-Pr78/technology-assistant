@@ -48,7 +48,7 @@ body {
   margin: 0 auto;
   font-family: 'Montserrat', sans-serif;
   font-size: 1.1rem;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 .no-scroll {
   overflow-y: hidden;
@@ -58,7 +58,7 @@ body {
   margin: 0 auto;
   position: relative;
   overflow: hidden;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 .section{
   margin: 30px auto;
